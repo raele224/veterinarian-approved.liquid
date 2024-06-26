@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Veterinarian-Approved Products</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #f0f0f0;
+      }
+      .container {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        width: 350px;
+        text-align: center;
+      }
+      .container .images {
+        position: relative;
+      }
+      .container .images img {
+        width: 100%;
+        display: block;
+      }
+      .container .images .badge {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-color: none;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .container .images .badge img {
+        width: 80%;
+      }
+      .text {
+        padding: 20px;
+      }
+      .text h3 {
+        margin: 0;
+        color: orange;
+        font-size: small;
+      }
+      .text h1 {
+        margin: 10px 0;
+        color: black;
+        font-size: 24px;
+      }
+      .text p {
+        color: #555;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      button {
+        background-color: black;
+        color: #fff;
+        border: none;
+        padding: 10px 70px;
+        margin: 20px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: #0056b3;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="images">
+        <img src="image/pexels-mikhail-nilov-7469222 (1).jpg" alt="Dr. Ernie" />
+        <div class="badge">
+          <img
+            src="image/DALL·E 2024-01-22 12.02.58 - Design a badge with a professional and trustworthy look, intended for approval by veterinarians. The badge should feature a paw print and a stethoscop-2.png"
+            alt="badge"
+          />
+        </div>
+      </div>
+      <div class="text">
+        <h3>Dr. Ernie Sanderson</h3>
+        <h1>Veterinarian-Approved</h1>
+        <p>
+          All products from Dr. Ernie's are vetted and approved by a qualified
+          veterinarian, ensuring top-quality care for your pet.
+        </p>
+      </div>
+      <button>View Products</button>
+    </div>
+  </body>
+</html>
